@@ -1,22 +1,26 @@
-body {
-   
-    margin: 0;
-    background-image: url("my website\my\background.jpg");
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
-min-height: 100vh;
-
+/* ÉTAGÈRE OUR COLOR PALETTE */ 
+root { 
+    --pink : #F7DDE3 ;
+    --cream : #FFF9F0 ; 
+    --burgundy : #70263B ;
+    --rose : #EAC4CF ;
+    --text : #422630 ;
 }
-h1{
-    color:rgba(122, 82, 21, 0.196)
+/* THE WHOLE WEBSITE */
+*{
+    box-sizing : border-box ;
 }
-.img1{
-     width: 100vw;
-     height: 100vh;
-     object-fit: cover;
-     position: fixed;
-     top: 0;
-     left: 0;
-     z-index: -1;
+html {
+    scroll-behaviour : smooth ;
+}
+body { 
+    margin : 0 ;
+    background-color : var(--cream) ;
+    color : var(--text) ;
+    font-family : georgia , serif ;
+    line-height: 1.7 ;
+}
+header { 
+    text-align: centre ;
+    
 }
